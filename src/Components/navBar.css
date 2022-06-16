@@ -1,0 +1,36 @@
+.navBar{
+  background-color: var(--secondary);
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  /* width: 100%; */
+}
+.navBar img {
+  height: 50px;
+  width: 70px;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.navBarLeft {
+  font-size: 30px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding-left: 150px;
+    cursor: pointer;
+  }
+
+  .navBar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-right:150px;
+  }
+
+  
