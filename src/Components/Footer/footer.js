@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css";
+import "../Footer/footer.css";
 import {SocialMediaIconsReact} from 'social-media-icons-react';
 
 const footer = () => {

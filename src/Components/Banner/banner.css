@@ -32,6 +32,7 @@
     color: var(--primary);
     background-color:rgb(255, 255, 255);
     border: 0.1px rgba(124, 124, 124, 0.309) solid;
+    font-size:20px;
     transition: .5s;
   }
 
@@ -57,4 +58,30 @@
     margin-left: 150px;
     width: 50%;
     animation: load 1s ease-in-out 1;
+  }
+
+  @media (max-width:768px){
+    .banner{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .bannerImage{
+      width: 50%;
+      margin: auto;
+      padding-right: 150px;
+    }
+
+    .bannerTitle{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+    }
+
+    .bannerBtn{
+      margin-bottom: 70px;
+    }
   }

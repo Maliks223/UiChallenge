@@ -1,9 +1,16 @@
 import React from "react";
-import "../Components/navBar.css";
+import "../NavBar/navBar.css";
 import Logo from "../recources/RollsRoyceLogo.png";
-const navBar = () => {
+import { useInView } from 'react-intersection-observer';
+import clsx from 'clsx';
+
+const NavBar = () => {
+  const { ref, inView } = useInView({
+    threshold: 0,
+  });
+
   return (
-    <div className="navBar">
+    <div ref={ref} className={clsx("navBar", inView && 'navbar-inview')}>
       <div className="navBarLeft">
         <div className="navBarTitle">Rolls Royce</div>
         <div>
@@ -11,7 +18,7 @@ const navBar = () => {
         </div>
       </div>
 
-      <div className="navBar">
+      <div className="navBarRight">
         <a href="#cars-section">Cars</a>
         <a href="#about-section">About Us</a>
         <a href="#contact-section">Contact Us</a>
@@ -20,4 +27,4 @@ const navBar = () => {
   );
 };
 
-export default navBar;
+export default NavBar;
