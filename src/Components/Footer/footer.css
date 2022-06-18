@@ -71,3 +71,23 @@
     color: white;
     
 }
+
+@media(max-width: 768px){
+
+    .footerInfo{
+        flex-direction: column;
+    }
+
+    .footerLeft{
+        display: none;
+    }
+
+    .footerTitle{
+        padding-bottom: 32px;
+    }
+
+    .footer{
+
+      margin-top: 400px;
+    }
+}
