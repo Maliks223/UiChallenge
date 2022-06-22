@@ -29,6 +29,9 @@
   
 }
 .footerLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-size: 13px;
     border-top: 0.1px rgba(124, 124, 124, 0.309) solid;
     border-bottom:0.1px rgba(124, 124, 124, 0.309) solid;
@@ -36,7 +39,7 @@
     background-color: var(--primary);
     color: white;
     margin-left: 50px;
-    height: 135px;
+    height: 170px;
 }
 
 .footerLeft1 div:hover{
@@ -85,7 +88,7 @@
     border-top: 0.1px rgba(124, 124, 124, 0.309) solid;
     border-bottom:0.1px rgba(124, 124, 124, 0.309) solid;
     width: 20%;
-    height: 135px;
+    height: 170px;
     background-color: var(--primary);
     color: white;
     
@@ -100,6 +103,7 @@
 
     .footerInfo{
         flex-direction: column;
+        height: 100px;
     }
 
     .footerLeft{
@@ -109,11 +113,6 @@
     .footerTitle{
         padding-bottom: 32px;
         font-size: 24px;
-        margin-bottom: 24px;
-    }
-
-    .footer{
-
-      margin-top: 400px;
+        margin-bottom: 25px;
     }
 }
