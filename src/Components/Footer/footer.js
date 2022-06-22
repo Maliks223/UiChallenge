@@ -11,26 +11,26 @@ const footer = () => {
                 <div className="footerLeft">
                     <div className="footerLeft1">
                     <div>MY ROLLS-ROYCE</div>
-                    <div>PRE-OWNED</div>
                     <div>COOKIES</div>
+                    <div>COMPLAINTS</div>
                     <div>PRESS CLUB</div>
-                    <div>LEGAL</div>
+                    <div>PRE-OWNED</div>
                     </div>
 
                     <div className="footerLeft2">
-                    <div>COMPLAINTS</div>
-                    <div>FIND A DEALER</div>
                     <div>EU TYRE LABELS</div>
                     <div>FAQS</div>
+                    <div>LEGAL</div>
                     <div>CONTACT</div>
+                    <div>LANGUAGE</div>
                     </div>
 
                     <div className="footerLeft3">
+                    <div>FIND A DEALER</div>
                     <div>PRIVACY</div>
                     <div>CAREERS</div>
                     <div>SITE MAP</div>
                     <div>WHISPERS</div>
-                    <div>LANGUAGE</div>
                     </div>
 
                 </div>

@@ -11,6 +11,11 @@
     background: linear-gradient(90deg, rgba(0,0,0,1) 25%, rgba(0,0,0,0.9640231092436975) 48%, rgba(27,0,27,1) 81%, rgba(27,0,27,1) 100%);
     padding: 0 5%;
   }
+
+  .bannerImage img{
+    padding-left: 50px;
+    transform: scale(1.2);
+  }
   
   .bannerTitle{
     display: flex;
@@ -21,14 +26,15 @@
     animation: load 1.5s ease-in-out 1;
     width: 50%;
     text-transform: uppercase;
+    letter-spacing: 5px;
   }
 
   .bannerBtn{
     margin-top: 80px;
     height: 50px;
-    width: 200px;
+    width: 180px;
     border-style: hidden;
-    border-radius: 20%;
+    border-radius: 10px;
     color: var(--primary);
     background-color:rgb(255, 255, 255);
     border: 0.1px rgba(124, 124, 124, 0.309) solid;
@@ -79,10 +85,12 @@
     }
 
     .bannerImage{
-      width: 100%;
+      width: 90%;
+      padding-right: 20px;
     }
 
     .bannerTitle{
+      font-size: 30px;
       margin-top: 16px;
       display: flex;
       flex-direction: column;
@@ -91,6 +99,6 @@
     }
 
     .bannerBtn{
-      margin-top: 32px;
+      margin-top: 42px;
     }
   }

@@ -1,6 +1,7 @@
 .footer{
     height: 400px;
     background-color: var(--primary); 
+    letter-spacing: 5px;
 }
 
 .footerTitle{
@@ -12,6 +13,7 @@
     font-size: 30px;
     background-color: var(--primary);
     color: white;
+    padding-top: 60px;
 }
 
 .footerInfo{
@@ -27,12 +29,29 @@
   
 }
 .footerLeft{
+    font-size: 13px;
     border-top: 0.1px rgba(124, 124, 124, 0.309) solid;
     border-bottom:0.1px rgba(124, 124, 124, 0.309) solid;
     width: 80%;
     background-color: var(--primary);
     color: white;
     margin-left: 50px;
+    height: 135px;
+}
+
+.footerLeft1 div:hover{
+    transform: scale(1.1);
+    transition: .2s ease-out;
+}
+
+.footerLeft2 div:hover{
+    transform: scale(1.1);
+    transition: .2s ease-out;
+}
+
+.footerLeft3 div:hover{
+    transform: scale(1.1);
+    transition: .2s ease-out;
 }
 
 .footerLeft1{
@@ -72,6 +91,11 @@
     
 }
 
+.footerRight svg:hover{
+    transform: scale(1.1);
+    transition: .2s ease-out;
+}
+
 @media(max-width: 768px){
 
     .footerInfo{
@@ -84,6 +108,8 @@
 
     .footerTitle{
         padding-bottom: 32px;
+        font-size: 24px;
+        margin-bottom: 24px;
     }
 
     .footer{

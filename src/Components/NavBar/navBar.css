@@ -1,13 +1,14 @@
 .navBar{
-  background-color: var(--secondary);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 25%, rgba(0,0,0,0.9640231092436975) 48%, rgba(27,0,27,1) 81%, rgba(27,0,27,1) 100%);
   align-items: center;
   justify-content: space-between;
   padding: 10px 5%;
   color: white;
   display: flex;
   flex-direction: row;
-  height: 80px;
+  height: 100px;
   /* width: 100%; */
+  letter-spacing: 5px;
 }
 .navBar img {
   height: 50px;
@@ -18,9 +19,10 @@
 }
 
 .navBarLeft {
-  font-size: 30px;
+    font-size: 28px;
     display: flex;
-    gap: 25px;
+    flex-direction: row;
+    /* gap: 25px; */
     align-items: center;
     /* padding-left: 150px; */
     cursor: pointer;
@@ -30,6 +32,7 @@
     text-decoration: none;
     color: white;
     font-size: 20px;
+    letter-spacing: 3px;
   }
 
   .navBar .link:not(:last-child) {
